@@ -20,7 +20,7 @@
         "symfony-cmf/testing": "1.1.*"
     },
     "autoload": {
-        "psr-4": { "PushBots\\InstaPushBundle": "" }
+        "psr-0": { "PushBots\\InstaPushBundle": "" }
     },
     "target-dir": "PushBots/InstaPushBundle",
     "extra": {
