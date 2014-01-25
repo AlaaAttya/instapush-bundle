@@ -1,0 +1,30 @@
+{
+    "name": "PushBots/instapush-bundle",
+    "type": "symfony-bundle",
+    "description": "instapush API wrapper for symfony framework",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Alaa Attya Mohamed",
+            "homepage": "http://alaaattya.wordpress.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/framework-bundle": "~2.1",
+        "symfony/assetic-bundle": "~2.1"
+    },
+    "require-dev": {
+        "symfony-cmf/testing": "1.1.*"
+    },
+    "autoload": {
+        "psr-0": { "PushBots\\InstaPushBundle": "" }
+    },
+    "target-dir": "PushBots/InstaPushBundle",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
