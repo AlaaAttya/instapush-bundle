@@ -2,6 +2,7 @@
     "name": "pushbots/instapush-bundle",
     "type": "symfony-bundle",
     "description": "instapush API wrapper for symfony framework",
+    "keywords":["instapush" , "pushbots-api" , "pushbots"],
     "license": "MIT",
     "minimum-stability": "dev",
     "authors": [
@@ -19,7 +20,7 @@
         "symfony-cmf/testing": "1.1.*"
     },
     "autoload": {
-        "psr-0": { "PushBots\\InstaPushBundle": "" }
+        "psr-4": { "PushBots\\InstaPushBundle": "" }
     },
     "target-dir": "PushBots/InstaPushBundle",
     "extra": {
