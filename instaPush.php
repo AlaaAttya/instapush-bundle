@@ -1,6 +1,6 @@
 <?php
 
-namespace PushBots\InstaPushBundle\instapush;
+namespace PushBots\InstaPushBundle;
 
 class instaPush {
 
