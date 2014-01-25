@@ -1,5 +1,5 @@
 {
-    "name": "PushBots/instapush-bundle",
+    "name": "pushbots/instapush-bundle",
     "type": "symfony-bundle",
     "description": "instapush API wrapper for symfony framework",
     "license": "MIT",
