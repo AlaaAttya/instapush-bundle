@@ -38,7 +38,7 @@ class instaPush {
 
         $fp = fsockopen('api.instapush.im', isset($parts['port']) ? $parts['port'] : 80, $errno, $errstr, 30);
 
-        $out = "POST " . $parts['path'] . " HTTP/1.1\r\n";
+        $out = "POST " . $parts['path'] . " HTTPS/1.1\r\n";
         $out.= "Host: api.instapush.im\r\n";
         $out.= "X-INSTAPUSH-APPID: " . $this->appId . "\r\n";
         $out.= "X-INSTAPUSH-APPSECRET: " . $this->appSecret . "\r\n";
@@ -56,7 +56,7 @@ class instaPush {
         $fp = fsockopen($host, 80, $errno, $errstr);
         switch ($method) {
             case 'POST':
-                $out = "POST http://" . $host . $path . " HTTP/1.1\r\n";
+                $out = "POST https://" . $host . $path . " HTTPS/1.1\r\n";
                 $out.= "Host: " . $host . "\r\n";
                 $out.= "X-INSTAPUSH-APPID: " . $this->appId . "\r\n";
                 $out.= "X-INSTAPUSH-APPSECRET: " . $this->appSecret . "\r\n";
