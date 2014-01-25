@@ -1,7 +1,7 @@
-Instapush Symfony2 Bundle:
+Instapush API wrapper package:
 =========================
 
-a simple symfony2 bundles which integrates instapush https://instapush.im/
+a simple packages that integrates instapush https://instapush.im/
 
 all you need is just add
 
@@ -10,7 +10,7 @@ all you need is just add
 `composer update`
 
 
-to use it in any symfony2 class just use
+to use it in any php class class just use
 
 `use PushBots\InstaPushBundle\instaPush;`
 
